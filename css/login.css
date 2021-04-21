@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: #194A7D;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: khaki;
+}
+
+.title h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9FB3E7;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.form input{
+    width: 250px;
+    height: 30px;
+}
+
+.end{
+    position: relative;
+}
+
+.log{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.log a{
+    text-decoration: none;
+    color: black;
+    background-color: #9FB3E7;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.log a:hover{
+    background-color: #7d97db;
+}
+
+.down{
+    display: inline-flex;
+}
